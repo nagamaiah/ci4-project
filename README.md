@@ -2,5 +2,8 @@
 
 ## Project setup steps
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found.
+1. git clone https://github.com/nagamaiah/ci4-project.git
+
+2. if require do  composer install &  composer update
+
+3. make sure to set CI_ENVIRONMENT  in .env file
