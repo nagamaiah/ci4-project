@@ -10,3 +10,5 @@ $routes->get('/cart', 'ProductController::cart');
 $routes->get('/products/add', 'ProductController::create');
 $routes->post('/products/store', 'ProductController::store');
 $routes->get('/products/show/(:num)', 'ProductController::show/$1');
+$routes->get('/orders', 'OrderController::index');
+$routes->post('/orders/store', 'OrderController::store');

@@ -7,6 +7,7 @@
         <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="<?= base_url('products/add') ?>">Add Product</span></a>
             <a class="nav-item nav-link" href="<?= base_url('cart') ?>">Cart Page</a>
+            <a class="nav-item nav-link" href="<?= base_url('orders') ?>">Orders Page</a> 
         </div>
     </div>
 </nav>
